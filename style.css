@@ -1,0 +1,105 @@
+/* Main App Background */
+.stApp {
+    background-color: #0a0e1a;
+    color: #f1f5f9;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #151f2e;
+    border-right: 1px solid #1e293b;
+}
+
+/* Sidebar Navigation Items */
+[data-testid="stSidebarNav"] {
+    padding-top: 2rem;
+}
+
+/* Specific Sidebar Items (if needed) */
+.st-emotion-cache-1vt4y6f {
+    color: #64748b;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #f1f5f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Saffron Accent */
+.saffron-text {
+    color: #f97316;
+}
+
+/* Success Green */
+.success-text {
+    color: #10b981;
+}
+
+/* Cards (Simplified since Streamlit cards are nested) */
+.destination-card {
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+    margin-bottom: 1rem;
+}
+
+.destination-card:hover {
+    border-color: #f97316;
+    transform: translateY(-4px);
+}
+
+.destination-emoji {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.destination-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #f1f5f9;
+}
+
+.destination-tagline {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.budget-badge {
+    background-color: #1a2235;
+    color: #10b981;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Progress Bars */
+.stProgress > div > div > div {
+    background-color: #f97316;
+}
+
+/* Input Fields */
+.stTextInput > div > div > input, 
+.stSelectbox > div > div > div, 
+.stTextArea > div > div > textarea {
+    background-color: #1a2235 !important;
+    color: #f1f5f9 !important;
+    border-color: #334155 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #f97316 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: bold !important;
+}
+
+.stButton > button:hover {
+    background-color: #ea580c !important;
+}
