@@ -5,7 +5,7 @@ Hardcoded API key, streaming output.
 from groq import Groq
 
 # ── Hardcoded API key ──────────────────────────────────────────
-DEFAULT_API_KEY = "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"
+DEFAULT_API_KEY = "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"
 
 def generate_itinerary(
     destination: str,
